@@ -1,0 +1,155 @@
+html, body {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    height:100%;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background: #1F232F;
+    color: #F2ECF8;
+    padding: 20px 200px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 25px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo > img {
+    border-style: solid;
+    border-radius: 100%;
+    border-color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.title-container {
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+}
+
+.gojo-img {
+    border-radius: 20px;
+}
+
+.sign-up {
+    background: #45B0D2;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border-style: none;
+    color:#F2ECF8;
+    font-weight: bold;
+}
+
+.intro {
+    background: #9B8AB4;
+    color: #F2ECF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px; 
+}
+
+.intro > h2 {
+    color: #27254C;
+    font-size: 25px;
+}
+
+.icon-containers {
+    display: flex;
+    gap: 100px;
+}
+
+.icon > div{
+    width: 150px;
+    height: 150px;
+}
+
+.icon > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.icon > img, .icon > div > img {
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.icon > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #27254C;
+    color: #F2ECF8;
+    padding: 50px;
+}
+
+q {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.quote > p {
+    font-weight: bold;
+}
+
+.conclusion {
+    display: flex;
+    justify-content: center;
+    background: #F2ECF8;
+}
+
+.card {
+    display: flex;
+    color: #F2ECF8;
+    background: #45B0D2;
+    margin: 100px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    gap: 150px;
+    align-items: center;
+}
+
+.card > button {
+    background: #45B0D2;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #F2ECF8;
+    padding: 10px 20px; 
+    color: #F2ECF8;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F232F;
+    color: #F2ECF8;
+    padding: 15px;  
+    text-align: center;
+}   
